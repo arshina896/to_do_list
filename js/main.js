@@ -4,7 +4,7 @@ $(document).ready(() => {
         const des = $('#description').val().trim();
         if (title !== "" && des !== "") {
             const taskItem = `
-         <li class="border border-dark shadow d-flex justify-content-between flex-column p-3">
+         <li class="border  shadow d-flex justify-content-between flex-column p-3">
   <div class="d-flex justify-content-between w-100">
     <span>${title}</span>
     <div>
